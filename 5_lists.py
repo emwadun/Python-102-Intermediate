@@ -1,6 +1,10 @@
 #Lists are quivalent to in other languages.
 #They are mutable (can be changed)
 #List elements are declared in square brackets.
+'''
+when do you need to use lists?:
+-> If you have collection of data that DOES NOT need random access. 
+'''
 
 empty_list = []
 print(empty_list) #This prints empty list, no elements in it
