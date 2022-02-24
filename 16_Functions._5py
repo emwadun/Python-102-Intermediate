@@ -1,0 +1,16 @@
+'''
+There are 4 major types of arguments:
+    1 - Required argumements
+    2 - Keyword arguments
+    3 - Default arguments
+    4 - Variable length arguments
+Let's look at each one of them one at a time
+'''
+
+###1. Required arguments#####
+#In this case the exact number of arguments are required to be passed in the order in which they are defined in the function.
+
+def hello(name):
+    print("hello", name)
+
+hello("Duncan") #-> This will print 'hello, Duncan'
